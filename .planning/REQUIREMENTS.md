@@ -7,7 +7,7 @@
 
 ### Scaffold
 
-- [ ] **SCAF-01**: Full package.json with all dependencies and scripts (vitest, playwright, husky, semantic-release, commitlint, lint-staged, prettier, better-auth, @neondatabase/auth, @vercel/functions)
+- [x] **SCAF-01**: Full package.json with all dependencies and scripts (vitest, playwright, husky, semantic-release, commitlint, lint-staged, prettier, better-auth, @neondatabase/auth, @vercel/functions)
 - [ ] **SCAF-02**: Blank default landing page (minimal — just heading + CI/CD pipeline message)
 - [ ] **SCAF-03**: Minimal globals.css (Tailwind import + base body styles, no theme yet)
 - [ ] **SCAF-04**: Layout uses Inter + JetBrains Mono Google fonts
@@ -81,7 +81,7 @@
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| SCAF-01 | Phase 1 | Pending |
+| SCAF-01 | Phase 1 | Complete |
 | SCAF-02 | Phase 1 | Pending |
 | SCAF-03 | Phase 1 | Pending |
 | SCAF-04 | Phase 1 | Pending |
