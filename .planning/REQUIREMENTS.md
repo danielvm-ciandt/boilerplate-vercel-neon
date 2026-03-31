@@ -30,8 +30,8 @@
 
 - [x] **TEST-01**: Vitest configured with jsdom environment and @testing-library/react
 - [x] **TEST-02**: Smoke unit test for blank default home page passes
-- [ ] **TEST-03**: Playwright configured with chromium project and webServer
-- [ ] **TEST-04**: E2E smoke test verifies blank default page loads
+- [x] **TEST-03**: Playwright configured with chromium project and webServer
+- [x] **TEST-04**: E2E smoke test verifies blank default page loads
 
 ### Styling
 
@@ -98,8 +98,8 @@
 | CICD-08 | Phase 2 | Pending |
 | TEST-01 | Phase 2 | Complete |
 | TEST-02 | Phase 2 | Complete |
-| TEST-03 | Phase 2 | Pending |
-| TEST-04 | Phase 2 | Pending |
+| TEST-03 | Phase 2 | Complete |
+| TEST-04 | Phase 2 | Complete |
 | STYL-01 | Phase 3 | Pending |
 | STYL-02 | Phase 3 | Pending |
 | STYL-03 | Phase 3 | Pending |

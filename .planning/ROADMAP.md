@@ -50,7 +50,7 @@ Plans:
 Plans:
 - [x] 02-01-PLAN.md — Configure Semantic Release (.releaserc.json), Commitlint, Husky hooks, lint-staged, and Prettier
 - [x] 02-02-PLAN.md — Set up Vitest with jsdom + @testing-library/react and write the home page smoke test
-- [ ] 02-03-PLAN.md — Set up Playwright with chromium project, webServer config, and E2E smoke test
+- [x] 02-03-PLAN.md — Set up Playwright with chromium project, webServer config, and E2E smoke test
 - [ ] 02-04-PLAN.md — Write GitHub Actions workflow covering lint → type-check → build → unit → E2E → semantic-release
 **UI hint**: no
 
