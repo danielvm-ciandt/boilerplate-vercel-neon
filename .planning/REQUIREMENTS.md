@@ -22,9 +22,9 @@
 - [x] **CICD-03**: Husky pre-commit hook runs lint-staged
 - [x] **CICD-04**: Husky commit-msg hook runs commitlint
 - [x] **CICD-05**: lint-staged runs eslint + prettier on staged files
-- [ ] **CICD-06**: GitHub Actions workflow: lint → type-check → build → unit tests → E2E → semantic-release
-- [ ] **CICD-07**: CI runs on push to main/dev/staging and PRs to main
-- [ ] **CICD-08**: Semantic Release only runs on push events (not PRs)
+- [x] **CICD-06**: GitHub Actions workflow: lint → type-check → build → unit tests → E2E → semantic-release
+- [x] **CICD-07**: CI runs on push to main/dev/staging and PRs to main
+- [x] **CICD-08**: Semantic Release only runs on push events (not PRs)
 
 ### Testing
 
@@ -93,9 +93,9 @@
 | CICD-03 | Phase 2 | Complete |
 | CICD-04 | Phase 2 | Complete |
 | CICD-05 | Phase 2 | Complete |
-| CICD-06 | Phase 2 | Pending |
-| CICD-07 | Phase 2 | Pending |
-| CICD-08 | Phase 2 | Pending |
+| CICD-06 | Phase 2 | Complete |
+| CICD-07 | Phase 2 | Complete |
+| CICD-08 | Phase 2 | Complete |
 | TEST-01 | Phase 2 | Complete |
 | TEST-02 | Phase 2 | Complete |
 | TEST-03 | Phase 2 | Complete |
