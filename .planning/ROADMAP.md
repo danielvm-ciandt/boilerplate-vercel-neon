@@ -45,13 +45,13 @@ Plans:
   3. `pnpm test:unit` runs and the smoke unit test for the home page passes
   4. `pnpm test:e2e` runs and the Playwright smoke test verifies the blank page loads
   5. Pushing a `feat:` commit to main triggers a GitHub Actions run that completes all steps and produces a version tag
-**Plans**: TBD
+**Plans**: 4 plans
 
 Plans:
-- [ ] 02-01: Configure Semantic Release (.releaserc.json), Commitlint, Husky hooks, and lint-staged
-- [ ] 02-02: Set up Vitest with jsdom + @testing-library/react and write the home page smoke test
-- [ ] 02-03: Set up Playwright with chromium project, webServer config, and E2E smoke test
-- [ ] 02-04: Write GitHub Actions workflow covering lint → type-check → build → unit → E2E → semantic-release
+- [ ] 02-01-PLAN.md — Configure Semantic Release (.releaserc.json), Commitlint, Husky hooks, lint-staged, and Prettier
+- [ ] 02-02-PLAN.md — Set up Vitest with jsdom + @testing-library/react and write the home page smoke test
+- [ ] 02-03-PLAN.md — Set up Playwright with chromium project, webServer config, and E2E smoke test
+- [ ] 02-04-PLAN.md — Write GitHub Actions workflow covering lint → type-check → build → unit → E2E → semantic-release
 **UI hint**: no
 
 ### Phase 3: Design System
