@@ -25,13 +25,16 @@ Every new project built from this boilerplate inherits a working CI/CD pipeline,
 - ✓ Full package.json with all project dependencies and scripts (vitest, playwright, husky, semantic-release, commitlint, lint-staged, prettier, better-auth, @neondatabase/auth) — Validated in Phase 01: foundation
 - ✓ Blank landing page with Inter + JetBrains Mono fonts, minimal globals.css, APP_VERSION injection — Validated in Phase 01: foundation
 
+### Validated
+
+- ✓ Semantic Release configured with conventional commits (feat=minor, fix/perf/refactor/style=patch) — Validated in Phase 02: ci-cd-pipeline
+- ✓ Commitlint + Husky + lint-staged local quality gates — Validated in Phase 02: ci-cd-pipeline
+- ✓ Vitest unit test setup with @testing-library/react and jsdom — Validated in Phase 02: ci-cd-pipeline
+- ✓ Playwright E2E skeleton with smoke test — Validated in Phase 02: ci-cd-pipeline
+- ✓ GitHub Actions CI/CD pipeline (lint → type-check → build → unit tests → E2E → semantic-release) — Validated in Phase 02: ci-cd-pipeline
+
 ### Active
 
-- [ ] Semantic Release configured with conventional commits (feat=minor, fix/perf/refactor/style=patch)
-- [ ] Commitlint + Husky + lint-staged local quality gates
-- [ ] Vitest unit test setup with @testing-library/react and jsdom
-- [ ] Playwright E2E skeleton with smoke test
-- [ ] GitHub Actions CI/CD pipeline (lint → type-check → build → unit tests → E2E → semantic-release)
 - [ ] Vercel environment configuration (dev/staging/prod branches)
 - [ ] 5-section design token system (tokens, theme map, base, components, utilities)
 - [ ] Reusable component classes (btn-primary, btn-ghost, card, input-field)
@@ -56,7 +59,7 @@ Every new project built from this boilerplate inherits a working CI/CD pipeline,
 - **Branch strategy**: `dev` → `staging` (rc releases) → `main` (production releases). Semantic Release runs on all three.
 - **Commit convention**: `style:` commits trigger patch releases (non-standard — design changes are user-facing). `feat:` = minor, `fix:/perf:/refactor:` = patch, `docs:/chore:/test:/ci:` = no release.
 - **Dev skip auth**: Middleware includes a `dev_skip_auth` cookie escape hatch for local development without Neon credentials.
-- **Current state**: Phase 01 complete — full toolchain declared and installed, blank landing page with Inter + JetBrains Mono fonts, APP_VERSION injection, build/lint/type-check passing.
+- **Current state**: Phase 02 complete — full CI/CD pipeline wired: Semantic Release, Commitlint, Husky, Vitest unit tests, Playwright E2E, and GitHub Actions CI workflow all passing.
 
 ## Constraints
 
@@ -95,4 +98,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-03-31 after initialization*
+*Last updated: 2026-03-31 after Phase 02 completion*

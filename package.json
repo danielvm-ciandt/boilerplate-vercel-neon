@@ -26,9 +26,24 @@
     "react": "19.2.4",
     "react-dom": "19.2.4"
   },
+  "lint-staged": {
+    "*.{ts,tsx,js,jsx,mjs}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.css": [
+      "prettier --write"
+    ]
+  },
   "devDependencies": {
+    "@commitlint/cli": "^19.8.0",
+    "@commitlint/config-conventional": "^19.8.0",
+    "@commitlint/types": "^20.5.0",
     "@playwright/test": "^1.51.1",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
     "@tailwindcss/postcss": "^4",
+    "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.0",
     "@testing-library/user-event": "^14.6.1",
     "@types/node": "^20",
@@ -37,8 +52,6 @@
     "@vitejs/plugin-react": "^4.3.4",
     "babel-plugin-react-compiler": "1.0.0",
     "commitlint": "^19.8.0",
-    "@commitlint/cli": "^19.8.0",
-    "@commitlint/config-conventional": "^19.8.0",
     "eslint": "^9",
     "eslint-config-next": "16.2.1",
     "husky": "^9.1.7",
@@ -46,8 +59,6 @@
     "lint-staged": "^15.5.0",
     "prettier": "^3.5.3",
     "semantic-release": "^24.2.3",
-    "@semantic-release/changelog": "^6.0.3",
-    "@semantic-release/git": "^10.0.1",
     "tailwindcss": "^4",
     "typescript": "^5",
     "vitest": "^3.1.1"

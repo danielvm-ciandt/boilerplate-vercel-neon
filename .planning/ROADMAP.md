@@ -45,13 +45,13 @@ Plans:
   3. `pnpm test:unit` runs and the smoke unit test for the home page passes
   4. `pnpm test:e2e` runs and the Playwright smoke test verifies the blank page loads
   5. Pushing a `feat:` commit to main triggers a GitHub Actions run that completes all steps and produces a version tag
-**Plans**: TBD
+**Plans**: 4 plans
 
 Plans:
-- [ ] 02-01: Configure Semantic Release (.releaserc.json), Commitlint, Husky hooks, and lint-staged
-- [ ] 02-02: Set up Vitest with jsdom + @testing-library/react and write the home page smoke test
-- [ ] 02-03: Set up Playwright with chromium project, webServer config, and E2E smoke test
-- [ ] 02-04: Write GitHub Actions workflow covering lint → type-check → build → unit → E2E → semantic-release
+- [x] 02-01-PLAN.md — Configure Semantic Release (.releaserc.json), Commitlint, Husky hooks, lint-staged, and Prettier
+- [x] 02-02-PLAN.md — Set up Vitest with jsdom + @testing-library/react and write the home page smoke test
+- [x] 02-03-PLAN.md — Set up Playwright with chromium project, webServer config, and E2E smoke test
+- [x] 02-04-PLAN.md — Write GitHub Actions workflow covering lint → type-check → build → unit → E2E → semantic-release
 **UI hint**: no
 
 ### Phase 3: Design System
@@ -99,6 +99,6 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation | 0/2 | Not started | - |
-| 2. CI/CD Pipeline | 0/4 | Not started | - |
+| 2. CI/CD Pipeline | 1/4 | In progress | - |
 | 3. Design System | 0/2 | Not started | - |
 | 4. Neon Auth | 0/4 | Not started | - |
