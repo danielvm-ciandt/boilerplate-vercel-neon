@@ -7,9 +7,11 @@
   "firecrawl": false,
   "exa_search": false,
   "git": {
-    "branching_strategy": "none",
-    "phase_branch_template": "gsd/phase-{phase}-{slug}",
-    "milestone_branch_template": "gsd/{milestone}-{slug}",
+    "branching_strategy": "environment",
+    "base_branch": "dev",
+    "environment_branches": ["dev", "staging", "main"],
+    "phase_branch_template": "phase-{phase}-{slug}",
+    "milestone_branch_template": "milestone-{milestone}-{slug}",
     "quick_branch_template": null
   },
   "workflow": {
