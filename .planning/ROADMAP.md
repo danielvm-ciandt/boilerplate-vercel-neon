@@ -29,11 +29,11 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. `pnpm type-check` exits 0 with no errors
   4. `pnpm build` exits 0 and produces a valid Next.js build
   5. The default route renders a blank page with a heading visible in the browser
-**Plans**: TBD
+**Plans**: 2 plans
 
 Plans:
-- [ ] 01-01: Update package.json with all dependencies, scripts, and engine constraints
-- [ ] 01-02: Scaffold blank landing page, globals.css, layout with fonts, tsconfig, next.config.ts, and .gitignore
+- [ ] 01-01-PLAN.md — Add all dependencies, scripts, and engine constraints to package.json
+- [ ] 01-02-PLAN.md — Scaffold blank landing page, globals.css, layout with Inter + JetBrains Mono fonts, next.config.ts APP_VERSION, and .gitignore exclusions
 
 ### Phase 2: CI/CD Pipeline
 **Goal**: Every push to main/dev/staging runs a full automated pipeline — lint, type-check, build, unit tests, E2E tests, and Semantic Release — and all checks pass green
