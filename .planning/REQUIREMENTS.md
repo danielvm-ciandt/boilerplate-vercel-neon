@@ -17,11 +17,11 @@
 
 ### CI/CD
 
-- [ ] **CICD-01**: Semantic Release configured (.releaserc.json) with style: patch rule
-- [ ] **CICD-02**: Commitlint enforces conventional commit types
-- [ ] **CICD-03**: Husky pre-commit hook runs lint-staged
-- [ ] **CICD-04**: Husky commit-msg hook runs commitlint
-- [ ] **CICD-05**: lint-staged runs eslint + prettier on staged files
+- [x] **CICD-01**: Semantic Release configured (.releaserc.json) with style: patch rule
+- [x] **CICD-02**: Commitlint enforces conventional commit types
+- [x] **CICD-03**: Husky pre-commit hook runs lint-staged
+- [x] **CICD-04**: Husky commit-msg hook runs commitlint
+- [x] **CICD-05**: lint-staged runs eslint + prettier on staged files
 - [ ] **CICD-06**: GitHub Actions workflow: lint → type-check → build → unit tests → E2E → semantic-release
 - [ ] **CICD-07**: CI runs on push to main/dev/staging and PRs to main
 - [ ] **CICD-08**: Semantic Release only runs on push events (not PRs)
@@ -88,11 +88,11 @@
 | SCAF-05 | Phase 1 | Pending |
 | SCAF-06 | Phase 1 | Pending |
 | SCAF-07 | Phase 1 | Pending |
-| CICD-01 | Phase 2 | Pending |
-| CICD-02 | Phase 2 | Pending |
-| CICD-03 | Phase 2 | Pending |
-| CICD-04 | Phase 2 | Pending |
-| CICD-05 | Phase 2 | Pending |
+| CICD-01 | Phase 2 | Complete |
+| CICD-02 | Phase 2 | Complete |
+| CICD-03 | Phase 2 | Complete |
+| CICD-04 | Phase 2 | Complete |
+| CICD-05 | Phase 2 | Complete |
 | CICD-06 | Phase 2 | Pending |
 | CICD-07 | Phase 2 | Pending |
 | CICD-08 | Phase 2 | Pending |

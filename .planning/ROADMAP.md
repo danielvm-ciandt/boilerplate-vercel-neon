@@ -99,6 +99,6 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation | 0/2 | Not started | - |
-| 2. CI/CD Pipeline | 0/4 | Not started | - |
+| 2. CI/CD Pipeline | 1/4 | In progress | - |
 | 3. Design System | 0/2 | Not started | - |
 | 4. Neon Auth | 0/4 | Not started | - |
