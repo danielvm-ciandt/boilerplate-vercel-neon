@@ -20,9 +20,13 @@ Every new project built from this boilerplate inherits a working CI/CD pipeline,
 - ✓ Basic App Router file structure (layout.tsx, page.tsx, globals.css) — existing
 - ✓ `.gitignore` with standard Next.js exclusions — existing
 
+### Validated
+
+- ✓ Full package.json with all project dependencies and scripts (vitest, playwright, husky, semantic-release, commitlint, lint-staged, prettier, better-auth, @neondatabase/auth) — Validated in Phase 01: foundation
+- ✓ Blank landing page with Inter + JetBrains Mono fonts, minimal globals.css, APP_VERSION injection — Validated in Phase 01: foundation
+
 ### Active
 
-- [ ] Full package.json with all project dependencies and scripts (vitest, playwright, husky, semantic-release, commitlint, lint-staged, prettier, better-auth, @neondatabase/auth)
 - [ ] Semantic Release configured with conventional commits (feat=minor, fix/perf/refactor/style=patch)
 - [ ] Commitlint + Husky + lint-staged local quality gates
 - [ ] Vitest unit test setup with @testing-library/react and jsdom
@@ -52,7 +56,7 @@ Every new project built from this boilerplate inherits a working CI/CD pipeline,
 - **Branch strategy**: `dev` → `staging` (rc releases) → `main` (production releases). Semantic Release runs on all three.
 - **Commit convention**: `style:` commits trigger patch releases (non-standard — design changes are user-facing). `feat:` = minor, `fix:/perf:/refactor:` = patch, `docs:/chore:/test:/ci:` = no release.
 - **Dev skip auth**: Middleware includes a `dev_skip_auth` cookie escape hatch for local development without Neon credentials.
-- **Current state**: Basic Next.js scaffold only — package.json has none of the tooling dependencies, no tests, no CI, no auth.
+- **Current state**: Phase 01 complete — full toolchain declared and installed, blank landing page with Inter + JetBrains Mono fonts, APP_VERSION injection, build/lint/type-check passing.
 
 ## Constraints
 
